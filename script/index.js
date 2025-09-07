@@ -70,14 +70,6 @@ const category = () => {
         .then(data => displayCategory(data.categories))
 }
 
-//  "status": true,
-//   "message": "successfully fetched categories data",
-//   "categories": [
-//     {
-//       "id": 1,
-//       "category_name": "Fruit Tree",
-//       "small_description": "Trees that bear edible fruits like mango, guava, and jackfruit."
-//     },
 
 const displayCategory = (categories) => {
     const categoryContainer = document.getElementById('category-container');
