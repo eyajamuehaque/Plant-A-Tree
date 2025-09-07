@@ -183,9 +183,9 @@ const displayPlants = (plants) => {
                     <h3  class="text-xl font-semibold">${plant.name}</h3>
                 </div>
                 <p class="text-sm text-gray-500">${plant.description}</p>
-                <div class="flex justify-between items-center font-bold">
-                    <span>${plant.category}</span>
-                    <span>$${plant.price}</span>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-500 bg-green-200 rounded-xl p-1">${plant.category}</span>
+                    <span class="font-bold">$${plant.price}</span>
                 </div>
                 <button onClick="showCart(${plant.id})" class="btn !bg-[#15803D] !text-white w-full">Add to Cart</button>
             </div>
