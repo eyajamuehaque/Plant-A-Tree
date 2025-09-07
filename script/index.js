@@ -1,5 +1,4 @@
 let cart = [];
-let quantity = 1;
 
 function showCart(id){
     const url = `https://openapi.programming-hero.com/api/plant/${id}`
