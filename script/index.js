@@ -196,18 +196,6 @@ const displayPlants = (plants) => {
 }
 
 
-// const showPlantDetails = (id) => {
-//     const url = `https://openapi.programming-hero.com/api/plant/${id}`
-//     fetch(url)
-//         .then(res => res.json())
-//         .then(data => {
-//            showInfo(data.plants);
-//         })
-// }
-
-// const showInfo = (plants) => {
-//     const
-// }
 
 const spinner = (status) => {
     if(status === true){
